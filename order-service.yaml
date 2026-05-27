@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: 476114143297.dkr.ecr.ap-southeast-1.amazonaws.com/order-service:650ac63
+          image: 476114143297.dkr.ecr.ap-southeast-1.amazonaws.com/order-service:1f67cdf
           imagePullPolicy: Always
           ports:
             - containerPort: 5002
